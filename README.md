@@ -133,9 +133,4 @@ responsibility of AI Trainers and Evaluators in production systems.
 Background: Data Science & AI  
 Focus: AI evaluation, alignment, and prompt engineering  
 
-# Prompt Engineering & AI Trainer Portfolio
-**Devakrishna Anilkumar**
 
-Real-world prompt engineering, AI evaluation, and model alignment experiments
-- Misinformation / myth-vs-evidence evaluation
-- Evidence calibration & verification checklists
