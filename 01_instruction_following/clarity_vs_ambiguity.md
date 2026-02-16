@@ -1,5 +1,5 @@
 ## Prompt Objective
-Test how clearly structured prompts improve instruction-following compared to vague prompts, and how constraints reduce hallucination risk.
+Test how clearly structured prompts improve instruction-following compared to vague prompts, and how explicit constraints reduce hallucination risk.
 
 ---
 
@@ -13,7 +13,7 @@ Explain time.
 - No clear structure or scope boundaries
 
 ### Evaluation
-- Instruction compliance: Medium (no constraints to follow)
+- Instruction compliance: Medium (lack of explicit constraints)
 - Clarity: Low–Medium
 - Hallucination risk: Medium (overconfident claims likely)
 - Usefulness: Depends on user intent (often mismatched)
