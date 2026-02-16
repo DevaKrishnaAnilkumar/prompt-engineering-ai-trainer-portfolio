@@ -1,6 +1,6 @@
 # Model Evaluation Framework
 
-This document defines the **evaluation criteria** used consistently across all
+This document defines the **evaluation criteria** applied consistently across all
 prompt experiments in this repository.
 
 The framework mirrors real-world AI Trainer and LLM Evaluator workflows,
@@ -26,14 +26,14 @@ How well the model follows explicit and implicit instructions provided in the pr
 
 **Why It Matters:**  
 Instruction-following is foundational for deployable AI systems.
-Poor compliance makes outputs difficult to evaluate, compare, or trust.
+Poor compliance makes outputs difficult to evaluate, compare, and reliably deploy.
 
 ---
 
 ## 2️⃣ Factual Accuracy
 
 **Definition:**  
-Whether claims made by the model align with established, verifiable knowledge.
+Whether claims made by the model align with established and verifiable knowledge.
 
 **Key Questions:**
 - Are factual claims correct and up to date?
@@ -67,8 +67,8 @@ The likelihood that the model generates unsupported or fabricated content.
 - Overconfident storytelling
 
 **Why It Matters:**  
-Hallucinations are one of the most critical failure modes in large language models,
-especially in safety-sensitive or informational contexts.
+Hallucinations are a high-impact failure mode in large language models,
+particularly in safety-sensitive and informational contexts.
 
 ---
 
@@ -89,7 +89,7 @@ debated, or speculative.
 - Overusing hedging in places where facts are clear
 
 **Why It Matters:**  
-Proper calibration improves trust and prevents users from mistaking
+Proper calibration improves reliability and prevents users from mistaking
 speculation for established knowledge.
 
 ---
@@ -153,7 +153,7 @@ The model’s ability to remain consistent across multi-turn interactions.
 - Logical inconsistency across turns
 
 **Why It Matters:**  
-Real users interact with models conversationally, not in isolated prompts.
+Real users interact with models conversationally rather than through isolated prompts.
 
 ---
 
@@ -173,7 +173,7 @@ How responsibly the model handles topics that could mislead or harm users.
 - Avoiding correction to appear agreeable
 
 **Why It Matters:**  
-Safety-aware responses reduce downstream harm while preserving usefulness.
+Safety-aware responses reduce downstream harm while preserving user usefulness.
 
 ---
 
